@@ -4,7 +4,7 @@ import React from "react";
 import CartContainer from "./CartContainer";
 const Navbar = () => {
   const { amount, cartItems, total } = useSelector((store) => store.cart);
-  console.log(cartItems);
+  // console.log(cartItems);
   return (
     <nav>
       <div className="nav-center">
